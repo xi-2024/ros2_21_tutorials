@@ -1,0 +1,14 @@
+{
+  "example_id": "deep_slot_button_tweezer_fail",
+  "selected_tool": "tweezer",
+  "execution_constraints": {
+    "gripper_type": "parallel_gripper",
+    "max_lateral_slip_m": 0.002,
+    "target_press_depth_m": 0.058
+  },
+  "expected_outcome": {
+    "success": false,
+    "failure_type": "unstable_press",
+    "correction": "Switch to long_screwdriver or regrasp with improved stability; avoid parallel-gripper pinch on tweezer for pressing."
+  }
+}

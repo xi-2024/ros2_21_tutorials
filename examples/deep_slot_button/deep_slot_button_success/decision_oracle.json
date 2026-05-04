@@ -1,0 +1,8 @@
+{
+  "example_id": "deep_slot_button_success",
+  "selected_tool": "long_screwdriver",
+  "success": true,
+  "failure_type": null,
+  "reasoning": "Button actuated with stable insertion and press.",
+  "correction": null
+}

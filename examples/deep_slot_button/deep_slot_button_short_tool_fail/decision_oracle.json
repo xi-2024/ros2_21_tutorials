@@ -1,0 +1,8 @@
+{
+  "example_id": "deep_slot_button_short_tool_fail",
+  "selected_tool": "short_screwdriver",
+  "success": false,
+  "failure_type": "insufficient_length",
+  "reasoning": "Tool tip could not reach the button at required depth.",
+  "correction": "Use a longer rigid tool such as long_screwdriver to reach slot depth."
+}

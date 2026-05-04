@@ -1,0 +1,14 @@
+{
+  "example_id": "deep_slot_button_success",
+  "selected_tool": "long_screwdriver",
+  "execution_constraints": {
+    "gripper_type": "parallel_gripper",
+    "max_lateral_slip_m": 0.002,
+    "target_press_depth_m": 0.058
+  },
+  "expected_outcome": {
+    "success": true,
+    "failure_type": null,
+    "correction": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task": "press_deep_slot_button",
+  "instance_id": "deep_slot_button_tweezer_fail",
+  "goal": "Actuate the recessed button through a narrow slot.",
+  "tool_candidates": [
+    "long_screwdriver",
+    "short_screwdriver",
+    "tweezer"
+  ],
+  "environment_constraints": {
+    "slot_width_m": 0.008,
+    "slot_depth_m": 0.06,
+    "requires_axial_rigidity": true
+  }
+}
