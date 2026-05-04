@@ -1,0 +1,11 @@
+{
+  "episode_id": "deep_slot_button_tweezer_fail",
+  "task": "press_deep_slot_button",
+  "selected_tool": "tweezer",
+  "result": {
+    "success": false,
+    "failure_type": "unstable_press",
+    "correction": "Switch to long_screwdriver or regrasp with improved stability; avoid parallel-gripper pinch on tweezer for pressing."
+  },
+  "observation_summary": "Press attempt slipped due to unstable lateral compliance."
+}

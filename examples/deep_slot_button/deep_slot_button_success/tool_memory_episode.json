@@ -1,0 +1,11 @@
+{
+  "episode_id": "deep_slot_button_success",
+  "task": "press_deep_slot_button",
+  "selected_tool": "long_screwdriver",
+  "result": {
+    "success": true,
+    "failure_type": null,
+    "correction": null
+  },
+  "observation_summary": "Button actuated with stable insertion and press."
+}

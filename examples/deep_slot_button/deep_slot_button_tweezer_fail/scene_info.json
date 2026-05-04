@@ -1,0 +1,33 @@
+{
+  "example_id": "deep_slot_button_tweezer_fail",
+  "task": "press_deep_slot_button",
+  "robot": {
+    "name": "generic_arm",
+    "end_effector": "parallel_gripper"
+  },
+  "object": {
+    "name": "deep_slot_button_panel",
+    "slot_depth_m": 0.06,
+    "required_press_force_n": 8.0
+  },
+  "placeholders": {
+    "images": [
+      "examples/deep_slot_button/deep_slot_button_tweezer_fail/images/rgb_0001.png"
+    ],
+    "masks": [
+      "examples/deep_slot_button/deep_slot_button_tweezer_fail/masks/button_mask_0001.png"
+    ],
+    "poses": [
+      "examples/deep_slot_button/deep_slot_button_tweezer_fail/poses/tool_pose_0001.json"
+    ],
+    "frames": [
+      "examples/deep_slot_button/deep_slot_button_tweezer_fail/frames/frame_0001.json"
+    ],
+    "trajectories": [
+      "examples/deep_slot_button/deep_slot_button_tweezer_fail/trajectories/approach_traj.json"
+    ],
+    "force_traces": [
+      "examples/deep_slot_button/deep_slot_button_tweezer_fail/force_traces/press_trace.csv"
+    ]
+  }
+}
